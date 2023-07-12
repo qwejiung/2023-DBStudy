@@ -17,31 +17,37 @@
 ### 1주차(2023.06.22~2023.06.28)
 - Chapter 01 데이터베이스 시스템
 
-### 2주차(2023.06.22~2023.06.28)
+### 2주차(2023.06.29~2023.07.05)
 - Chapter 02 관계 데이터 모델
 
-### 3주차(2023.06.29~2023.07.05)
+### 3주차(2023.07.06~2023.07.12)
 -  Chapter 03 SQL 기초
-- [프로그래머스 SQL 문제-level1](https://school.programmers.co.kr/learn/challenges?order=recent&languages=mysql&page=1&levels=1)
+- [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
-### 4주차(2023.07.06~2023.07.12)
+> 3주차부터 실습도 함께 진행
+#### 관련 사이트
+✔️[SQL 고득점 Kit](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
+✔️[HackerRank](https://www.hackerrank.com/domains/sql?badge_type=sql)
+
+
+### 4주차(2023.07.13~2023.07.19)
 - Chapter 04 SQL 고급
-- [프로그래머스 SQL 문제-level1](https://school.programmers.co.kr/learn/challenges?order=recent&languages=mysql&page=1&levels=1)
+- [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
-### 5주차(2023.07.13~2023.07.19)
+### 5주차(2023.07.20~2023.07.26)
 - Chapter 06 데이터 모델링
-- [프로그래머스 SQL 문제-level1](https://school.programmers.co.kr/learn/challenges?order=recent&languages=mysql&page=1&levels=1)
+- [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
-### 6주차(2023.07.20~2023.07.26)
+### 6주차(2023.07.27~2023.08.02)
 - Chapter 07 정규화
-- [프로그래머스 SQL 문제-level1](https://school.programmers.co.kr/learn/challenges?order=recent&languages=mysql&page=1&levels=1)
+- [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
-### 7주차(2023.07.27~2023.08.02)
+### 7주차(2023.08.03~2023.08.09)
 - Chapter 08 트랜잭션, 동시성 제어, 회복
-- [프로그래머스 SQL 문제-level2](https://school.programmers.co.kr/learn/challenges?order=recent&languages=mysql&page=1&levels=2)
+- [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
-### 8주차(2023.08.03~2023.08.09)
+### 8주차(2023.08.10~2023.08.16)
 - Chapter 09 데이터베이스 보안과 관리
-- [프로그래머스 SQL 문제-level2](https://school.programmers.co.kr/learn/challenges?order=recent&languages=mysql&page=1&levels=2)
+- [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
-<!-- ### 9주차(2023.08.10~2023.08.16) -->
+<!-- ### 9주차(2023.08.17~2023.08.23) -->
