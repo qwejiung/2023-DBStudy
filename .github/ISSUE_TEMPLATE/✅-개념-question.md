@@ -1,13 +1,13 @@
 ---
-name: "✅Question"
+name: "✅ 개념 Question"
 about: 주차 별 질문을 작성해주세요.
-title: "[Question]"
+title: "[개념 Question]"
 labels: ''
 assignees: ''
 
 ---
 
-## 질문 주차
+## 주차
 예시: 
 week2
 
