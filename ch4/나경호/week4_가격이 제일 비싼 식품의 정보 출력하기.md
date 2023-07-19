@@ -42,5 +42,6 @@
 
 ## 문제풀이
 ```sql
-
+SELECT MAX(PRICE) AS MAX_PRICE
+FROM PRODUCT;
 ```
