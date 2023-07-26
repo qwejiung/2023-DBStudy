@@ -30,9 +30,9 @@
 | DELIMITER | 구문 종료 기호 설정 | DELIMITER{기호} |
 | BEGIN-END | 프로그램 문을 블록화시킴<br>중첩가능 | BEGIN<br>{SQL 문}<br>END |
 | IF-ELSE | 조건의 검사 결과에 따라 문장을 선택적으로 수행 | IF<조건> THEN {SQL 문}<br>[ELSE {SQL 문}]<br>END IF; |
-| LOOP | LEAVE 문을 만나기 전까지 LOOP을 반복 | [label:] LOOP<br>{SQL 문 |LEAVE [label]}<br>END LOOP |
-| WHILE | 조건이 참일 경우 WHILE 문의 블록을 실행 | WHILE <조건> DO<br>{SQL 문| BREAK | CONTINUE}<br>END WHILE |
-| REPEAT | 조건이 참일 경우 REPEAT 문의 블록을 실행 | [label:]REPEAT<br>{SQL 문|BREAK|CONTINUE}<br>UNTIL<조건><br>END REPEAT [label:] |
+| LOOP | LEAVE 문을 만나기 전까지 LOOP을 반복 | [label:] LOOP<br>{SQL 문 \|LEAVE [label]}<br>END LOOP |
+| WHILE | 조건이 참일 경우 WHILE 문의 블록을 실행 | WHILE <조건> DO<br>{SQL 문\| BREAK \| CONTINUE}<br>END WHILE |
+| REPEAT | 조건이 참일 경우 REPEAT 문의 블록을 실행 | [label:]REPEAT<br>{SQL 문\|BREAK\|CONTINUE}<br>UNTIL<조건><br>END REPEAT [label:] |
 | RETURN | 프로시저를 종료<br>상태값 반환 가능 | RETURN [<식>] |
 #### 결과를 반환하는 프로시저
 - 주어진 작업을 수행하고 작업을 완료하기도 하지만 함수와 같이 계산된 결과를 반환할 수도 있음
@@ -61,6 +61,7 @@
 | 기능의 차이 | SQL 문으로 할 수 없는 복잡한 로직을 수행 | 기본값 제공, 데이터 제약 준수, SQL 뷰의 수정, 참조무결성 작업 | 속성 값을 가공하여 반환, SQL 문에서 직접 사용 |
 ### 저장 프로그램 문법 요약
 - 저장 프로그램의 기본 문법
+
 | 구분 | 명령어 |
 | --- | --- |
 | 데이터 정의어 | CREATE TABEL<br>CREATE PROCEDURE<br>CREATE FUNCTION<br>CREATE TRIGGER<br>DROP |
@@ -76,6 +77,7 @@
 ### 소스코드 설명
 - 연동이란 어느 한 부분이 움직이면 다른 부분도 같이 움직인다는 의미, 여기에서는 자바 프로그램을 수행하여 DBMS를 동작시킨다는 의미
 - 데이터베이스 접속 자바 클래스(java.sql)
+
 | 클래스 구분 | 클래스 혹은 인터페이스 | 주요 메소드 이름 | 메소드 설명 |
 | --- | --- | --- | --- |
 | java.lang | Class | Class.forName(<클래스이름>) | <클래스이름>의 JDBC 드라이버를 로딩 |
@@ -90,6 +92,7 @@
 |  |  | String getString(<int>) | <int>가 가리키는 열 값을 문자열로 반환 |
 ## 데이터베이스 연동 웹 프로그래밍
 - 데이터베이스 연동 웹 프로그래밍 실습 환경
+
 | 항목 | 프로그램 |
 | --- | --- |
 | 데이터베이스 프로그램 | MYSQL 8.x |
