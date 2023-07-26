@@ -29,9 +29,9 @@
 | DELIMITER | 구문 종료 기호 설정 | DELIMITER{기호} |
 | BEGIN-END | 프로그램 문을 블록화시킴<br>중첩가능 | BEGIN<br>{SQL 문}<br>END |
 | IF-ELSE | 조건의 검사 결과에 따라 문장을 선택적으로 수행 | IF<조건> THEN {SQL 문}<br>[ELSE {SQL 문}]<br>END IF; |
-| LOOP | LEAVE 문을 만나기 전까지 LOOP을 반복 | [label:] LOOP<br>{SQL 문 \|LEAVE [label]}<br>END LOOP |
-| WHILE | 조건이 참일 경우 WHILE 문의 블록을 실행 | WHILE <조건> DO<br>{SQL 문\| BREAK \| CONTINUE}<br>END WHILE |
-| REPEAT | 조건이 참일 경우 REPEAT 문의 블록을 실행 | [label:]REPEAT<br>{SQL 문\|BREAK\|CONTINUE}<br>UNTIL<조건><br>END REPEAT [label:] |
+| LOOP | LEAVE 문을 만나기 전까지 LOOP을 반복 | [label:] LOOP<br>{SQL 문 |LEAVE [label]}<br>END LOOP |
+| WHILE | 조건이 참일 경우 WHILE 문의 블록을 실행 | WHILE <조건> DO<br>{SQL 문| BREAK | CONTINUE}<br>END WHILE |
+| REPEAT | 조건이 참일 경우 REPEAT 문의 블록을 실행 | [label:]REPEAT<br>{SQL 문|BREAK|CONTINUE}<br>UNTIL<조건><br>END REPEAT [label:] |
 | RETURN | 프로시저를 종료<br>상태값 반환 가능 | RETURN [<식>] |
 #### 결과를 반환하는 프로시저
 - 주어진 작업을 수행하고 작업을 완료하기도 하지만 함수와 같이 계산된 결과를 반환할 수도 있음
