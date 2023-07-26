@@ -66,7 +66,7 @@ SET ... 열이름=함수명(인자1, 인자2, ...);
   | c: 문자 | LPAD(s, n, c) | 대상 문자열의 왼쪽부터 지정한 자리수까지 지정한 문자로 채움 <br>예) LPAD('Page 1', 10, ‘*’) → ‘****Page 1’ |
   | n: 정수 | REPLACE(s1, s2, s3) | 대상 문자열의 지정한 문자를 원하는 문자로 변경 <br>예) REPLACE(’JACK & JUE’, ‘J’, ‘BL') → ‘BLACK & BLUE’ |
   | k: 정수 | RPAD(s, n, c) | 대상 문자열의 오른쪽부터 지정한 자리수까지 지정한 문자로 채움 <br>예) RPAD(’AbC’, 5, ‘*') → ‘AbC**’ |
-  |  | SUBSTR(s, n, k) | 대상 문자열의 지정된 자리에서부터 지정된 길이 만큼 잘라서 반환 <br>예) SUBSTR(’ABODEFG’,  3.4) → 'CDEF’ |
+  |  | SUBSTR(s, n, k) | 대상 문자열의 지정된 자리에서부터 지정된 길이 만큼 잘라서 반환 <br>예) SUBSTR(’ABODEFG’, 3, 4) → 'CDEF’ |
   |  | TRIM(c FROM s) | 대상 문자열의 양쪽에서 지정된 문자를 삭제 (문자열만 넣으면 기본값으로 공백 제거)<br>예) TRIM(’=’ FROM ‘== BROWNING ==’) → ‘BROWNING’ |
   |  | UPPER(s) | 대상 문자열을 모두 대문자로 변환 <br>예) UPPER(’mr. soott’) → ‘MR. SCOTT’ |
   | 숫자값
@@ -113,13 +113,19 @@ SET ... 열이름=함수명(인자1, 인자2, ...);
 | DATEDIFF(date1, date2) | INTEGER | DATE 형의 date1 - date2 날짜 차이를 반환 <br>예) DATEDIFF (’2019-02-14’, ‘2019-02-04’) → 10 |
 | SYSDATE | DATE | DBMS 시스템상의 오늘 날짜를 반환하는 함수 <br>예) SYSDATE() → 2019-06-30 21:47:01 | 
 
-- 날짜형 데이터는 ‘-’와 ‘+’를 사용하여 원하는 날짜로부터 이전(-)과 이후(+)를 계산할 수 있다.|
+- 날짜형 데이터는 ‘-’와 ‘+’를 사용하여 원하는 날짜로부터 이전(-)과 이후(+)를 계산할 수 있다.
+    
+    ```sql
+    SELECT ADDDATE('2023-07-01', INTERVAL -5 DAY) BEFORE5,
+    			 ADDDATE('2023-07-01', INTERVAL 5 DAY) AFTER5,
+    ```
+    
+- 마당서점은 주문일로부터 10일 후 매출을 확정한다 각 주문의 확정일자를 구하시오.
     
     ```sql
     SELECT orderid '주문번호', orderdate '주문일', ADDDATE(orderdate, INTERVAL 10 DAY) '확정'
     FROM Orders;
     ```
-    
 
 **format의 주요 지정자(specifier)**
 
@@ -342,7 +348,7 @@ predicate subquery | WHERE 절에 술어와 같이 사용되며 결과를 한정
     WHERE saleprice > ALL (SELECT saleprice
                            FROM Orders
                            WHERE custid='3');
-    /* saleprice 값이 6000, 12000, 13000 일 때, ALL 연산자이므로 13000보다 큰 찬매금액을 결과로 출력 */
+    /* saleprice 값이 6000, 12000, 13000 일 때, ALL 연산자이므로 13000보다 큰 판매금액을 결과로 출력 */
     ```
     
 
@@ -496,7 +502,7 @@ MySQL InnoDB 엔진 데이터베이스의 파일
 ### 인덱스의 재구성과 삭제
 
 - B-tree 인덱스는 데이터의 수정, 삭제, 삽입이 잦으면 노드의 갱신이 주기적으로 일어나 **단편화(fragmentation) 현상**이 나타난다.
-- 단편화: 삭제된 레코드의 인덱스 값 자리가 비게 되는 상태, 성능 저하로 이어진다.
+- **단편화**: 삭제된 레코드의 인덱스 값 자리가 비게 되는 상태, 성능 저하로 이어진다.
 - 이럴 때 재구성 필요
 - 재구성 문법
     
