@@ -29,7 +29,6 @@
 ✔️[SQL 고득점 Kit](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 ✔️[HackerRank](https://www.hackerrank.com/domains/sql?badge_type=sql)
 
-
 ### 4주차(2023.07.13~2023.07.19)
 - Chapter 04 SQL 고급
 - [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
@@ -40,7 +39,7 @@
 
 ### 6주차(2023.07.27~2023.08.02)
 - Chapter 07 정규화
-- [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
+- 마당서점 설계 실습
 
 ### 7주차(2023.08.03~2023.08.09)
 - Chapter 08 트랜잭션, 동시성 제어, 회복
