@@ -4,6 +4,65 @@
 
 스터디 책: [MySQL로 배우는 데이터베이스 개론과 실습](https://product.kyobobook.co.kr/detail/S000001743733)
 
+### ✅ Member
+
+<center>
+<table  width="100%">
+  <tr>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/96857599?v=4"  width="100px;"  alt=""/>
+    </td>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/128007622?v=4"  width="100px;"  alt=""/>
+    </td>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/136984070?s=64&v=4"  width="100px;"  alt=""/>
+    </td>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/97429550?s=64&v=4"  width="100px;"  alt=""/>
+    </td>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/127813439?s=64&v=4"  width="100px;"  alt=""/>
+    </td>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/128283286?s=64&v=4"  width="100px;"  alt=""/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+        <a href="https://github.com/Hoya324">
+            <div>경호</div>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/taewook02">
+            <div>태욱</div>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/qwejiung">
+            <div>지웅</div>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Erichong7">
+            <div>정우</div>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/KoSeonJe">
+            <div>선제</div>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/noweahct">
+            <div>채원</div>
+        </a>
+    </td>
+  </tr>
+</table>
+</center>
+
 ## ✅ 기간: 2023.06.22(목) ~ 2023.08.09(목) / 총 8주차
 
 ## ✅ 활동방식: 
@@ -34,19 +93,23 @@
 - [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
 ### 5주차(2023.07.20~2023.07.26)
-- Chapter 06 데이터 모델링
+- Chapter 05 데이터베이스 프로그래밍
 - [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
 ### 6주차(2023.07.27~2023.08.02)
-- Chapter 07 정규화
-- 마당서점 설계 실습
+- Chapter 06 데이터 모델링
+- ERD 설계 실습
+- [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
 ### 7주차(2023.08.03~2023.08.09)
-- Chapter 08 트랜잭션, 동시성 제어, 회복
+- Chapter 07 정규화
+- ERD 설계 실습
 - [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
 ### 8주차(2023.08.10~2023.08.16)
-- Chapter 09 데이터베이스 보안과 관리
+- Chapter 08 트랜잭션, 동시성 제어, 회복
 - [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
-<!-- ### 9주차(2023.08.17~2023.08.23) -->
+### 9주차(2023.08.17~2023.08.23)
+- Chapter 09 데이터베이스 보안과 관리
+- [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)

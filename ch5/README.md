@@ -1,5 +1,5 @@
 # 5주차(2023.07.20~2023.07.26)
-- Chapter 06 데이터 모델링
+- Chapter 05 데이터베이스 프로그래밍
 - [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
 **JOIN**
