@@ -346,7 +346,6 @@ bookview.php는 도서 한 권에 대한 상세 정보를 보는 프로그램이
 - 연동은 자바 프로그램 혹은 웹 프로그램을 이용한다.
 
 ### JDBC
-
 - 자바는 객체지향 언어이기 때문에 객체를 호출하여 데이터베이스에 접속한다.
 - 데이터베이스에 접속하는 API(Application Programming Interface)를 java.sql.*에서 제공한다.
 - java.sql에 정의된 API는 각 DBMS 제조사에서 자신의 제품에 맞게 구현해서 제공하는데, 이를 JDBC(Java DataBase Connectivity) 드라이버라고 한다.
