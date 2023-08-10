@@ -1,4 +1,4 @@
-# ERD_practice_탁채원
+# ERD_practice_김지웅
 
 ### 실습 과제(7주차까지)
 
