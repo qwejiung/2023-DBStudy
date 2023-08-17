@@ -109,7 +109,3 @@
 ### 8주차(2023.08.10~2023.08.16)
 - Chapter 08 트랜잭션, 동시성 제어, 회복
 - [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
-
-### 9주차(2023.08.17~2023.08.23)
-- Chapter 09 데이터베이스 보안과 관리
-- [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
